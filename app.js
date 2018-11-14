@@ -9,7 +9,8 @@ app.controller('MainController', ['$scope', function($scope) {
       modelNumber: '148-VSC',
       functions: 'Cleaning the house',
       miniDrones: 5,
-      price: 13000
+      price: 13000,
+      release: new Date('2168', '07', '18')
       
     },
      {
@@ -17,7 +18,8 @@ app.controller('MainController', ['$scope', function($scope) {
       modelNumber: '869-KXY',
       functions: 'Protecting you and your assets',
       miniDrones: 8,
-      price: 24000
+      price: 24000,
+      release: new Date('2168', '04', '18')
      }
     
     
