@@ -14,11 +14,12 @@
     <h1>{{ title }}</h1>
      <p>{{ promo }}</p>
      <div class="pro" ng-repeat="product in products">
-        <p>{{ product.name }} </p>
+        <p>{{ product.name | uppercase }} </p>
         <p>{{ product.modelNumber }}</p>
         <p>{{ product.functions }} </p>
         <p>{{ product.miniDrones }} </p>
         <p>{{ product.price | currency }} </p>
+      <p>{{ product.release | date }}</p>
      </div>
   </div>
 </body>
