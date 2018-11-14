@@ -1,0 +1,28 @@
+.flexbody{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-forection:row;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  vertical-align:middle;
+  background-color:#383838;
+}
+.flexmiddle {
+   -webkit-flex: 2 0 0;
+   flex: 2 0 0;
+}
+.flexsides {
+   -webkit-flex: 1 0 0;
+   flex: 1 0 0;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   align-items:center;
+   justify-content:center;
+   text-align:center;
+   vertical-align:middle;
+   background-color:#3b3a3b;
+   
