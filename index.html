@@ -9,8 +9,10 @@
   <!--<script src="angular.test.js"></script> -->
 <head>
 </head>
-<body ng-app="myApp">
-  <div class="main" ng-controller="MainController">
+<body ng-app="myApp" class="flexbody">
+ <div class="flexsides">
+ </div>
+  <div class="flexmiddle" ng-controller="MainController">
     <h1>{{ title }}</h1>
      <p>{{ promo }}</p>
      <div class="pro" ng-repeat="product in products">
@@ -22,6 +24,8 @@
       <p>{{ product.release | date }}</p>
      </div>
   </div>
+  <div class="flexsides">
+ </div>
 </body>
 
 <script  type="text/javascript" src="app.js"></script> 
