@@ -1,8 +1,13 @@
 .flexbody{
-display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  height: 100%;
+ display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-forection:row;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  vertical-align:middle;
+  background-color:#383838;
   
 }
 .flexmiddle {
