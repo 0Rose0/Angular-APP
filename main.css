@@ -6,20 +6,8 @@ display: flex;
   
 }
 .flexmiddle {
-   -webkit-flex: 2 0 0;
-   flex: 2 0 0;
+ width: 50%
 }
 .flexsides {
-   -webkit-flex: 1 0 0;
-   flex: 1 0 0;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   align-items:center;
-   justify-content:center;
-   text-align:center;
-   vertical-align:middle;
-   background-color:#3b3a3b;
-   width: 100px;
+   width: 25%
 }
