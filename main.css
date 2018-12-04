@@ -11,10 +11,10 @@
   
 }
 .flexmiddle {
-flex-basis: 50%;
+flex-basis:0 0 1;
 }
 .flexsides {
-   flex-basis: 25%;
+   flex: 0 1 0;
    display: -webkit-flex;
    display: flex;
    -webkit-flex-direction: column;
