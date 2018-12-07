@@ -4,9 +4,10 @@
   
 }
 .flexmiddle {
-flex: 2;
+flex: 1;
 }
 .flexsides {
-   flex: 1;
+   flex: 2;
+  
   
 }
