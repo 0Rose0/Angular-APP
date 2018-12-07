@@ -1,6 +1,6 @@
 .flexbody{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   
 }
 .flexmiddle {
