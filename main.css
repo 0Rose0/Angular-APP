@@ -4,10 +4,10 @@
   
 }
 .flexmiddle {
-flex: 1;
+flex-grow: 2;
 }
 .flexsides {
-   flex: 2;
+   flex-shrink: 2;
   
   
 }
