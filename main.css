@@ -1,13 +1,14 @@
 .flexbody{
   display: flex;
   flex-flow: row;
+  flex: 1 100%;
   
 }
 .flexmiddle {
-flex-grow: 2;
+flex: 2;
 }
 .flexsides {
-   flex-shrink: 4;
+   flex: 1;
   
   
 }
