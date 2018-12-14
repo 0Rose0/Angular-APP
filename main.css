@@ -10,7 +10,7 @@
   
 }
 .flexmiddle {
-/* flex: 2; */
+ flex: 2; 
   flex-direction: column;
    align-items:center;
    justify-content:center;
@@ -18,12 +18,13 @@
    vertical-align:middle;
 }
 .flexsides {
- /*  flex: 1; */
+   flex: 1; 
   flex-direction: column;
    align-items:center;
    justify-content:center;
    text-align:center;
    vertical-align:middle;
+   
 }
 p{
   color: white;
