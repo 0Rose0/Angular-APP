@@ -1,7 +1,6 @@
 .flexbody{
   display: flex;
   flex-flow: row;
-  flex: 1 100%;
   background-color: black;
    align-items:center;
   justify-content:center;
@@ -10,7 +9,7 @@
   
 }
 .flexmiddle {
-
+  flex-basis: 600px;
   flex-direction: column;
    align-items:center;
    justify-content:center;
@@ -18,7 +17,7 @@
    vertical-align:middle;
 }
 .flexsides {
-
+  flex-shrink: 2;
   flex-direction: column;
    align-items:center;
    justify-content:center;
