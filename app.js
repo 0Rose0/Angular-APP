@@ -1,7 +1,7 @@
 var app=angular.module("myApp", []);
 
 app.controller('MainController', ['$scope', function($scope) { 
-  $scope.title = 'AI Aid'; 
+  $scope.topTitle = 'AI Aid'; 
   $scope.promo = 'Come here for all your advanced AI needs!';
   $scope.products = [
     {
