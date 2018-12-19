@@ -37,10 +37,9 @@ img{
 .flexhead{
  flex: 1 100%; 
   display: flex;
-  flex-flow: row;
-  background-color: black;
+  flex-direction: column;
    align-items:center;
-  justify-content:center;
-  text-align:center;
-  vertical-align:middle;
+   justify-content:center;
+   text-align:center;
+   vertical-align:middle;
 }
