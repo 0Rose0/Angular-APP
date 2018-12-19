@@ -34,8 +34,13 @@ p{
 img{
    max-width:100%;
 }
-head{
+.flexhead{
  flex: 1 100%; 
   display: flex;
   flex-flow: row;
+  background-color: black;
+   align-items:center;
+  justify-content:center;
+  text-align:center;
+  vertical-align:middle;
 }
