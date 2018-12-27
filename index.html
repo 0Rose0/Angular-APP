@@ -20,7 +20,14 @@
   <img height="400px" src="APP Pics/65b5c47a85c6c1153df86f2aa28132bc.jpg">
  </div>
   <div  class="flexmiddle" ng-controller="MainController">
-     <div class="pro" ng-repeat="product in products">
+    <div class="card" ng-repeat="product in products">
+          <app-info info="app"></app-info>
+   </div>
+   
+   
+   
+   
+    <!-- <div class="pro" ng-repeat="product in products">
       <img height="200" width="200" ng-src="{{product.cover}}">
       <div class="intro">
            <p>{{ product.name }} </p>
@@ -31,7 +38,7 @@
         <p>{{ product.price | currency }} </p>
       <p>{{ product.release | date }}</p>
       <p ng-click="plusOne($index)" >{{ product.likes }}</p>
-     </div>
+     </div> -->
   </div>
   <div  class="flexsides">
    <img  height="400" src="APP Pics/tumblr_ph0ohfbPbT1wj7q7vo1_1280.jpg">
@@ -41,4 +48,5 @@
 </body>
 
 <script  type="text/javascript" src="app.js"></script> 
+ <script  type="text/javascript" src="appInfo.js"></script> 
   <script type="text/javascript" src="controller.js"></script>
