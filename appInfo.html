@@ -1,11 +1,11 @@
-  <img height="200" width="200" ng-src="{{product.cover}}">
+  <img height="200" width="200" ng-src="{{info.cover}}">
       <div class="intro">
-           <p>{{ product.name }} </p>
-           <p>Model Number: {{ product.modelNumber }}</p> 
+           <p>{{ info.name }} </p>
+           <p>Model Number: {{ info.modelNumber }}</p> 
        </div>
-        <p>Function: {{ product.functions }} </p>
-        <p>Accompanying MiniDrones: {{ product.miniDrones }} </p>
-        <p>{{ product.price | currency }} </p>
-      <p>{{ product.release | date }}</p>
-      <p ng-click="plusOne($index)" >{{ product.likes }}</p>
+        <p>Function: {{ info.functions }} </p>
+        <p>Accompanying MiniDrones: {{ info.miniDrones }} </p>
+        <p>{{ info.price | currency }} </p>
+      <p>{{ info.release | date }}</p>
+      <p ng-click="plusOne($index)" >{{ info.likes }}</p>
      
