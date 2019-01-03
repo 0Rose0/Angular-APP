@@ -5,6 +5,6 @@ app.directive('installApp',function(){
       info: '='
     },
   templateUrl:
-    'js/directives/installApp.html'
+    'Directives/installApp.html'
   };
 });
