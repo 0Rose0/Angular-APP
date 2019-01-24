@@ -1,9 +1,10 @@
 var app=angular.module("myApp", []);
 
-app.controller('MainController', ['$scope', 'forecast', function($scope, forecast) { 
-  forecast.success(function(data){
-    $scope.fiveDay = data;
-  });
+//app.controller('MainController', ['$scope', 'forecast', function($scope, forecast) { 
+ // forecast.success(function(data){
+//    $scope.fiveDay = data;
+//  });
+app.controller('MainController', ['$scope',  function($scope) { 
 
   $scope.topTitle = 'AI Aid'; 
   $scope.promo = 'Come here for all your advanced AI needs!';
