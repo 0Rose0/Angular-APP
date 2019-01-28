@@ -43,3 +43,16 @@ img{
    text-align:center;
    vertical-align:middle;
 }
+.navBar{
+  display:flex;
+  flex-direction:row;
+   align-items:center;
+   justify-content:center;
+   text-align:center;
+   vertical-align:middle;
+}
+#nav{
+  border-radius:30%;
+  
+}
+  
