@@ -50,15 +50,18 @@ img{
    justify-content:center;
    text-align:center;
    vertical-align:middle;
+  background-color:grey;
 }
 #nav{
   border-radius:30%;
   width:100px;
   height:50px;
-  background-color:grey;
+  background-color:white;
   margin: 10px 50px 10px 50px;
   padding: 10px 50px 10px 50px;
   box-shadow: 3px 3px 5px;
+  text-align:center;
+  vertical-align:middle;
   
 }
   
