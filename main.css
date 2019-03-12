@@ -71,5 +71,6 @@ img{
 }
 .banner{
   background-image: url("APP Pics/tumblr_ph0ohfbPbT1wj7q7vo1_1280.jpg");
+  max-width:100%;
 }
   
