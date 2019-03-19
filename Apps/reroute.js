@@ -1,12 +1,12 @@
 var app2 = angular.module('GalleryApp', ['ngRoute']);
 app.config(function($routeProvider){
   $routeProvider
-  .when('/',{
-   controller: 'MainController',
+//  .when('/',{
+//   controller: 'MainController',
     //^^ this is messing things up, get rid of? change back to Home Controller?
-    templateUrl: 'index.html'
-  })
-  .when('/home/',{
+  //  templateUrl: 'index.html'
+ // })
+  .when('/',{
     controller: 'HomeController',
     templateUrl: 'views/home.html'
   })
