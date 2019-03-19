@@ -3,6 +3,7 @@ app.config(function($routeProvider){
   $routeProvider
   .when('/',{
     controller: 'MainController',
+    //^^ change back to Home Controller?
     templateUrl: 'index.html'
   })
   .when('/home/',{
