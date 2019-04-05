@@ -6,7 +6,7 @@ app.config(function($routeProvider){
     //^^ this is messing things up, get rid of? change back to Home Controller?
    templateUrl: 'index.html'
   })
-  .when('/Angular-APP/photos/:id',{
+  .when('/photos/:id',{
     controller: 'PhotoController',
     templateUrl: 'views/home.html'
   })
